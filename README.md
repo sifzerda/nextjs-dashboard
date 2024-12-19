@@ -113,22 +113,6 @@ In this app, the components are stored inside app/ui/dashboard.
 ### Create Links
 To link between pages use next's in-built <Link /> component. Import Link into your nav-links (or other link) component. Here, that is inside app/ui/dashboard/nav-links.tsx.
 
-## TO SET UP A DB
-
-Next.js can work serverless (it has built-in next-start server support). Vercel provides dbs: 
-(1) first deploy on Vercel;
-(2) Navigate to your app's dashboard;
-(3) Navigate to 'storage' tab and choose a db (e.g. Neon Vercel Postgres);
-(4) Once db is connected, 'show secret' under .env.local and 'copy snippet';
-(5) Paste this into an .env file in your code editor
-(6) in code editor terminal run:
-
-```bash
-npm i @vercel/postgres
-```
-
-to install the Vercel Postgres SDK.
-
 ## TO DEPLOY
 
 ### Deploy on Vercel
