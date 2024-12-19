@@ -164,3 +164,11 @@ There is a seed file inside app/seed. To seed the db, visit:
 You need an API to fetch your data, either from 3rd party services, or to fetch data from your app's client.
 
 This app queries db using Vercel Postgres SDK and SQL. The query file is at app/lib/data.ts
+
+### Loading
+
+This app contains a loading skeleton - loading.tsx - which is a placeholder sent to client and rendered while the page content is loading.
+
+### Suspense
+
+Suspense allows you to defer rendering parts of an application until a condition is met. Components can be wrapped in Suspense, which is passed as a fallback component until the condition is met.
