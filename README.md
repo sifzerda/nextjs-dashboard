@@ -1,3 +1,7 @@
+# NEXT JS TEMPLATE
+
+This is a template next js app which tutors how to build a basic commerce next js site design
+
 ## Next.js App Router Course - Starter
 
 ```bash
